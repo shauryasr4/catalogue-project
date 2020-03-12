@@ -1,3 +1,3 @@
 export const getAllComparisonProperties = () => {
-    return ['price', 'colors', 'condition', 'vendors'];
-}
+  return ['price', 'colors', 'condition', 'vendors'];
+};

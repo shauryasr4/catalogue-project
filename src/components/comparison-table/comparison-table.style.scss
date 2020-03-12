@@ -3,21 +3,25 @@
     width: 80%;
     margin: 60px auto;
     justify-content: center;
-    .features{
+
+    .features {
         font-size: 20px;
         background-color: white;
         display: flex;
         flex-direction: column;
         flex: 1;
+
         .top-info {
             border-bottom: 1px solid grey;
             padding: 20px 60px;
         }
+
         .features-list {
             display: flex;
             flex-direction: column;
             flex-grow: 1;
-            span{
+
+            span {
                 border: 1px solid #eaeaea;
                 padding: 20px 60px;
                 background-color: #F8F9FA;
@@ -25,7 +29,7 @@
                 align-items: center;
                 flex-grow: 1;
                 justify-content: center;
-            }  
+            }
         }
     }
 }

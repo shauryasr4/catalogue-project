@@ -25,17 +25,17 @@ export const AttributesProvider = function({ children }) {
 
   const addProductForComparison = function(id) {
     dispatch({
-        type: 'ADD_PRODUCT',
-        payload: id
-      });
-  }
+      type: 'ADD_PRODUCT',
+      payload: id
+    });
+  };
 
   const removeProduct = function(id) {
     dispatch({
-        type: 'REMOVE_PRODUCT',
-        payload: id
-      });
-  }
+      type: 'REMOVE_PRODUCT',
+      payload: id
+    });
+  };
 
   return (
     <AttributeContext.Provider

@@ -6,21 +6,26 @@
     margin: 2%;
     flex-basis: 21%;
     border: 1px solid grey;
-    .img-container{
+
+    .img-container {
         position: relative;
+
         &:hover {
             .hover-overlay {
                 display: block;
             }
+
             .hover-button {
                 display: block;
             }
         }
+
         .product-img {
             height: 200px;
             width: 200px;
             align-self: center;
         }
+
         .hover-button {
             position: absolute;
             top: 80%;
@@ -34,7 +39,8 @@
             font-weight: bold;
             color: #87dec6;
         }
-        .hover-overlay{
+
+        .hover-overlay {
             position: absolute;
             opacity: 0.3;
             top: 0;
@@ -45,19 +51,23 @@
             display: none;
         }
     }
+
     .card-info {
         display: flex;
         flex-direction: column;
         padding: 15px;
-        .product-info{
+
+        .product-info {
             display: flex;
             justify-content: space-between;
             font-size: 28px;
             margin-bottom: 15px;
+
             .product-price {
                 color: #87dec6;
             }
         }
+
         .product-desc {
             display: flex;
             color: grey;
